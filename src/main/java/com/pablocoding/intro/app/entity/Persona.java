@@ -9,6 +9,9 @@ public class Persona {
     private String email;
     private int telefono;
 
+    public Persona() {
+    }
+
     public Persona(String nombre, String apellido, String email, int telefono) {
         this.nombre = nombre;
         this.apellido = apellido;
